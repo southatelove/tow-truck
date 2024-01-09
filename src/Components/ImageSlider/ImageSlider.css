@@ -35,8 +35,8 @@
 .img-slider-btn > * {
   stroke: white;
   fill: black;
-  width: 3rem;
-  height: 3rem;
+  width: 2rem;
+  height: 2rem;
 }
 .slider-btn {
   position: absolute;

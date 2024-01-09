@@ -1,0 +1,16 @@
+.main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+.main-section-title {
+  font-size: 32px;
+  font-weight: 700;
+}
+.main-section-content {
+  display: flex;
+  gap: 50px;
+}
