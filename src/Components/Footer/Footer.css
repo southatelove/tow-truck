@@ -1,8 +1,8 @@
 .footer {
   position: absolute;
+  height: 150px;
   bottom: 0;
-  display: flex;
-  justify-content: center;
+  width: 100%;
   font-size: 14px;
   background: #f7f7f7;
   font-weight: 600;
@@ -10,8 +10,10 @@
 }
 .footer-container {
   display: flex;
-  width: 1280px;
   justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-top: 20px;
 }
 .footer-left-container {
   display: flex;
