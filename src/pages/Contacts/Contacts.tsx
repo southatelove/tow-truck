@@ -1,7 +1,12 @@
+import "./Contacts.css";
+
 export function Contacts() {
   return (
     <>
-      <div>Здесь будет страница с контактами</div>
+      <section className="contacts-section">
+        <h2 className="contacts-section-title">Контакты для связи</h2>
+        <div className="line"></div>
+      </section>
     </>
   );
 }

@@ -1,5 +1,6 @@
-import mainTow from "../../assets/main-tow-truck.jpg";
 import "./Menu.css";
+
+import mainTow from "../../assets/main-tow-truck.jpg";
 import carTow from "../../assets/icons/car-tow.svg";
 import motoTow from "../../assets/icons/moto-tow.svg";
 import truckTow from "../../assets/icons/truck-tow.svg";

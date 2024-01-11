@@ -1,0 +1,15 @@
+.contacts-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contacts-section-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.line {
+  width: 100%;
+  border-top: 3px solid #ffc107;
+}
