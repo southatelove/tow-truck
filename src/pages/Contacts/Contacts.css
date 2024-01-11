@@ -17,6 +17,7 @@
 .contacts-map {
   display: flex;
   gap: 50px;
+  margin-bottom: 50px;
 }
 .contacts-info {
   display: flex;

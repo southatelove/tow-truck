@@ -1,6 +1,6 @@
 import "./Contacts.css";
 
-import telephone from "../../assets/icons/phone.svg";
+import telephone from "../../assets/icons/telephone.svg";
 import email from "../../assets/icons/email.svg";
 import telegram from "../../assets/icons/telegram.svg";
 import whatsapp from "../../assets/icons/whatsup.svg";
@@ -12,7 +12,7 @@ export function Contacts() {
         <h3 className="contacts-section-title">Контакты для связи</h3>
         <div className="line"></div>
       </section>
-      <section className="contacts-map">
+      <div className="contacts-map">
         <iframe
           src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa003ec7decc2c3aee800ce506d3280f7c9bff01bae96ece70dc214b4e8b99628&amp;source=constructor"
           width="840"
@@ -60,7 +60,7 @@ export function Contacts() {
             </a>
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 }
