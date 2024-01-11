@@ -1,6 +1,10 @@
-.examples {
-  max-width: "1200px";
-  width: 100%;
-  aspect-ratio: "1 / 2";
-  margin: 0 auto;
+.examples-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.examples-section-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 50px;
 }

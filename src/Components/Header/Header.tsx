@@ -11,8 +11,8 @@ export function Header() {
           <img src={tow96}></img>
           <div className="header-links">
             <Link to="/">Главная</Link>
-            <Link to="/contacts">Контакты</Link>
             <Link to="/examples">Примеры работ</Link>
+            <Link to="/contacts">Контакты</Link>
           </div>
           <div className="header-call">
             <a href="tel:89052338998">

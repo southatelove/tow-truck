@@ -1,8 +1,9 @@
-.contacts-section {
+.section-contacts {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
 }
 .contacts-section-title {
   font-size: 32px;
@@ -12,4 +13,30 @@
 .line {
   width: 100%;
   border-top: 3px solid #ffc107;
+}
+.contacts-map {
+  display: flex;
+  gap: 50px;
+}
+.contacts-info {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+}
+.info {
+  display: flex;
+  max-height: 30px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.info > p {
+  font-size: 20px;
+  margin-right: 10px;
+  min-width: 100px;
+}
+.info > a {
+  font-weight: 600;
+}
+.info:hover > a {
+  color: grey;
 }
