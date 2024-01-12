@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 
 import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import { Layout } from "./layout/Menu/Layout.tsx";
+import { Layout } from "./layout/Layout/Layout.tsx";
 import { Error } from "./pages/Error/Error.tsx";
 import { Contacts } from "./pages/Contacts/Contacts.tsx";
 import { Menu } from "./pages/Menu/Menu.tsx";
