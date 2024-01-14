@@ -1,4 +1,3 @@
-// import { Link } from "react-router-dom";
 import "./Footer.css";
 import telegram from "../../assets/icons/telegram.svg";
 import telephone from "../../assets/icons/telephone.svg";
@@ -10,13 +9,8 @@ export function Footer() {
       <footer className="footer">
         <div className="footer-container">
           <div className="footer-left-container">
-            {/* <div className="header-links">
-            <Link to="/">Главная</Link>
-            <Link to="/examples">Примеры работ</Link>
-            <Link to="/contacts">Контакты</Link>
-          </div> */}
             <p>Эвакуатор Кириши © 2024 | Все права защищены</p>
-            <p>Адрес: Ленинградская область., г. Кириши</p>
+            <p>Адрес: Ленинградская область, г. Кириши</p>
             <p>
               Телефон: 8(905)233-89-98, Электронная почта:
               komissarov0205@gmail.com

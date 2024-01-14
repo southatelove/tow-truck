@@ -9,9 +9,7 @@
  */
 
 html {
-  line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
-  scroll-behavior: smooth;
+  height: 100%;
 }
 
 /* Sections
@@ -22,9 +20,9 @@ html {
  */
 
 body {
-  min-height: 100%;
-  position: relative;
-  margin: 0;
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
 /**
@@ -470,9 +468,7 @@ nav,
 section {
   display: block;
 }
-html {
-  height: 100%;
-}
+
 body {
   line-height: 1;
 }

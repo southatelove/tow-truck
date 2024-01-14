@@ -12,6 +12,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  padding: 0px 20px 0px 20px;
 }
 .header-container-burger {
   display: none;

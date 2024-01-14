@@ -6,5 +6,10 @@
 .examples-section-title {
   font-size: 32px;
   font-weight: 700;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
+}
+.line {
+  width: 100%;
+  border-top: 3px solid #ffc107;
+  margin-bottom: 30px;
 }
