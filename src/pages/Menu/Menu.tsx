@@ -29,7 +29,7 @@ const info = [
   {
     infoName: "Стоимость:",
     desription: "От 2500р,",
-    secondDesription: "В пределах Кириши 3000р, далее 80р/км.",
+    secondDesription: "В пределах Кириши 3000р, далее 100р/км.",
   },
   {
     infoName: "Перевозимый транспорт:",
@@ -64,9 +64,12 @@ export function Menu() {
     <>
       <section className="main-section">
         <h1 className="title">Эвакуатор Кириши</h1>
-        <div className="line"></div>
+        <div className="line" />
         <div className="main-img">
-          <img src={mainTow}></img>
+          <img src={mainTow} />
+          <a href="tel:89052338998" className="main-img-call">
+            Заказать эвакуатор
+          </a>
         </div>
         <h2 className="title" style={{ marginBottom: "30px" }}>
           Предоставляемые услуги

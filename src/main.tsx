@@ -26,12 +26,16 @@ const router = createBrowserRouter([
         path: "/examples",
         element: <Examples />,
       },
+      {
+        path: "*",
+        element: <Error />,
+      },
     ],
   },
-  {
-    path: "*",
-    element: <Error />,
-  },
+  // {
+  //   path: "*",
+  //   element: <Error />,
+  // },
 ]);
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>

@@ -41,10 +41,10 @@ export function Header() {
                   Контакты
                 </Link>
               </div>
-              <div className="header-call">
+              <div className="header-call nums">
                 <a href="tel:89052338998">
-                  Заказать машину
-                  <span style={{ marginTop: "10px" }}>8(905)233-89-98</span>
+                  Заказать машину 8(905)233-89-98
+                  {/* <span style={{ marginTop: "10px" }}>8(905)233-89-98</span> */}
                 </a>
               </div>
             </div>
@@ -59,8 +59,8 @@ export function Header() {
           </div>
           <div className="header-call">
             <a href="tel:89052338998">
-              Заказать машину
-              <span style={{ marginTop: "10px" }}>8(905)233-89-98</span>
+              Заказать машину 8(905)233-89-98
+              {/* <span style={{ marginTop: "10px" }}>8(905)233-89-98</span> */}
             </a>
           </div>
         </div>

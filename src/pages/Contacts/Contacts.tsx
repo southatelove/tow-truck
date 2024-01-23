@@ -53,7 +53,7 @@ export function Contacts() {
             </div>
             <div className="info">
               <p>WhatsApp:</p>
-              <a href="tel:89052338998">
+              <a href="https://wa.me/89052338998">
                 <img
                   src={whatsapp}
                   style={{ width: "15px", height: "15px", marginRight: "10px" }}

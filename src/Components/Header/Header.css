@@ -39,7 +39,17 @@
   background: #ffc107;
   border-radius: 8px;
   padding: 10px;
+  /* white-space: ; */
 }
+.header-call > a {
+  max-width: 178px;
+  white-space: break-spaces;
+  line-height: 25px;
+}
+.nums {
+  max-width: 139px;
+}
+
 .header-call :hover {
   color: grey;
 }
@@ -67,6 +77,10 @@
     display: flex;
     justify-content: space-between;
     font-weight: 400;
+  }
+  .header-call > a {
+    max-width: 119px;
+    line-height: 20px;
   }
 }
 

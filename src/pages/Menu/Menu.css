@@ -19,6 +19,24 @@
   gap: 50px;
   justify-content: center;
 }
+.main-img {
+  position: relative;
+}
+.main-img-call {
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: 20%;
+  color: white;
+  font-size: 60px;
+  min-width: 570px;
+  transform: translate(-50%, -50%);
+  border-bottom: 1px solid white;
+  cursor: pointer;
+}
+.main-img-call:hover {
+  color: rgb(188, 182, 182);
+}
 .main-section-content-info > div {
   min-height: 200px;
   border: 2px solid grey;
@@ -53,6 +71,10 @@
 }
 
 @media (max-width: 991px) {
+  .main-img-call {
+    font-size: 40px;
+    min-width: 390px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -61,6 +83,10 @@
     grid-template-columns: 200px 200px;
     gap: 50px;
     justify-content: center;
+  }
+  .main-img-call {
+    font-size: 20px;
+    min-width: 190px;
   }
 }
 @media (max-width: 570px) {
