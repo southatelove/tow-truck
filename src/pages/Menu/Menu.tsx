@@ -59,6 +59,12 @@ const info = [
     desription: "Нет.",
   },
 ];
+
+console.log(
+  "Создатель сайта",
+  "https://github.com/southatelove",
+  "Все права защищены"
+);
 export function Menu() {
   return (
     <>

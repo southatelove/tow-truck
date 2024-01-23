@@ -15,6 +15,9 @@ export function Footer() {
               Телефон: 8(905)233-89-98, Электронная почта:
               komissarov0205@gmail.com
             </p>
+            <a href="https://github.com/southatelove">
+              This website is created by "southatelove"
+            </a>
           </div>
           <div className="footer-right-container">
             <a
