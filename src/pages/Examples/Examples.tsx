@@ -18,9 +18,9 @@ export function Examples() {
     <>
       <section className="examples-section">
         <h2 className="examples-section-title">Примеры работ</h2>
-        <div className="line"></div>
+        <div className="line" />
         <div className="examples">
-          <ImageSlider imageUrls={IMAGES}></ImageSlider>
+          <ImageSlider imageUrls={IMAGES} />
         </div>
       </section>
     </>

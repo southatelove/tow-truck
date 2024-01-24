@@ -1,7 +1,16 @@
+import { Link } from "react-router-dom";
+import "./Error.css";
+
 export function Error() {
   return (
     <>
-      <div>Я ошибка 404</div>
+      <div className="error-section">
+        <p>Ошибка 404</p>
+        <p>Запрашиваемая вами страница не найдена</p>
+        <Link to="/" style={{ borderBottom: "1px solid" }}>
+          Вернуться на Главную страницу
+        </Link>
+      </div>
     </>
   );
 }

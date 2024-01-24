@@ -1,0 +1,12 @@
+.error-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+@media (max-width: 400px) {
+  .error-section {
+    font-size: 13px;
+  }
+}

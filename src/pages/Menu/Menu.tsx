@@ -85,7 +85,7 @@ export function Menu() {
             {towCars.map((item, index) => {
               return (
                 <div key={index}>
-                  <img src={item.tow}></img>
+                  <img src={item.tow} alt="tow" />
                   <p className="description">{item.description}</p>
                 </div>
               );

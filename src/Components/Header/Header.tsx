@@ -23,7 +23,7 @@ export function Header() {
       <div className="header">
         <div className="header-burger">
           <div>
-            <img src={tow48} />
+            <img src={tow48} alt="tow48" />
           </div>
           <MenuOutlined onClick={showDrawer} />
         </div>
@@ -42,26 +42,20 @@ export function Header() {
                 </Link>
               </div>
               <div className="header-call nums">
-                <a href="tel:89052338998">
-                  Заказать машину 8(905)233-89-98
-                  {/* <span style={{ marginTop: "10px" }}>8(905)233-89-98</span> */}
-                </a>
+                <a href="tel:89052338998">Заказать машину 8(905)233-89-98</a>
               </div>
             </div>
           </Drawer>
         </div>
         <div className="header-container">
-          <img src={tow96} />
+          <img src={tow96} alt="tow96" />
           <div className="header-links">
             <Link to="/">Главная</Link>
             <Link to="/examples">Примеры работ</Link>
             <Link to="/contacts">Контакты</Link>
           </div>
           <div className="header-call">
-            <a href="tel:89052338998">
-              Заказать машину 8(905)233-89-98
-              {/* <span style={{ marginTop: "10px" }}>8(905)233-89-98</span> */}
-            </a>
+            <a href="tel:89052338998">Заказать машину 8(905)233-89-98</a>
           </div>
         </div>
       </div>

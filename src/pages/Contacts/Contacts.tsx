@@ -10,7 +10,7 @@ export function Contacts() {
     <>
       <section className="section-contacts">
         <h3 className="title">Контакты для связи</h3>
-        <div className="line"></div>
+        <div className="line" />
         <div className="contacts-map">
           <iframe
             src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa003ec7decc2c3aee800ce506d3280f7c9bff01bae96ece70dc214b4e8b99628&amp;source=constructor"
@@ -47,6 +47,7 @@ export function Contacts() {
                 <img
                   src={telegram}
                   style={{ width: "15px", height: "15px", marginRight: "10px" }}
+                  alt=""
                 />
                 Александр
               </a>

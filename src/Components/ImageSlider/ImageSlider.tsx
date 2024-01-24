@@ -39,6 +39,7 @@ export function ImageSlider({ imageUrls }: ImageSliderProps) {
             src={url}
             className="img-slider"
             style={{ translate: `${-100 * imageIndex}%` }}
+            alt="photo"
           />
         ))}
       </div>
