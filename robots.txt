@@ -1,0 +1,7 @@
+User-agent: Yandex 
+disallow: /examples
+disallow: /error
+
+User-agent:Googlebot
+disallow: /examples
+disallow: /error
