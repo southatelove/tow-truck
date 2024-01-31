@@ -16,7 +16,7 @@ export function Footer() {
               komissarov0205@gmail.com
             </p>
             <a href="https://github.com/southatelove">
-              This website is created by "southatelove"
+              The website was created by "southatelove"
             </a>
           </div>
           <div className="footer-right-container">
