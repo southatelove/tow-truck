@@ -91,12 +91,12 @@ export function Menu() {
               );
             })}
           </div>
-          <p className="title">Подробности</p>
+          <h3 className="title">Подробности</h3>
           <div className="main-section-content-info">
             {info.map((item, index) => {
               return (
                 <div key={index}>
-                  <p className="info-name">{item.infoName}</p>
+                  <h4 className="info-name">{item.infoName}</h4>
                   <p
                     className="info-descrption"
                     style={{ marginBottom: "5px" }}

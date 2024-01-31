@@ -9,7 +9,7 @@ export function Contacts() {
   return (
     <>
       <section className="section-contacts">
-        <h3 className="title">Контакты для связи</h3>
+        <h1 className="title">Контакты для связи</h1>
         <div className="line" />
         <div className="contacts-map">
           <iframe
