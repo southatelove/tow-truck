@@ -23,6 +23,8 @@
 .footer-right-container {
   display: flex;
   gap: 15px;
+  flex-direction: column;
+  justify-content: center;
 }
 @media (max-width: 475px) {
   .footer {

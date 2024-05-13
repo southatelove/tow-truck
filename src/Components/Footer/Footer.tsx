@@ -1,4 +1,5 @@
 import "./Footer.css";
+
 import telegram from "../../assets/icons/telegram.svg";
 import telephone from "../../assets/icons/telephone.svg";
 import email from "../../assets/icons/email.svg";

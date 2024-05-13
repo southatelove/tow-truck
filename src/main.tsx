@@ -1,13 +1,11 @@
+import "./index.css";
 import React from "react";
+
 import ReactDOM from "react-dom/client";
 
-import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { Layout } from "./layout/Layout/Layout.tsx";
-import { Error } from "./pages/Error/Error.tsx";
-import { Contacts } from "./pages/Contacts/Contacts.tsx";
-import { Menu } from "./pages/Menu/Menu.tsx";
-import { Examples } from "./pages/Examples/Examples.tsx";
+import { Contacts, Examples, Menu, Error } from "./pages/index.ts";
 
 const router = createBrowserRouter([
   {

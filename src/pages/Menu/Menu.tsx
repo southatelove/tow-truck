@@ -5,7 +5,9 @@ import carTow from "../../assets/icons/car-tow.svg";
 import motoTow from "../../assets/icons/moto-tow.svg";
 import truckTow from "../../assets/icons/truck-tow.svg";
 
-const towCars = [
+import { IInfo, ITowCars } from "../types";
+
+const towCars: ITowCars[] = [
   {
     tow: carTow,
     description: "Эвакуация автомобилей",
@@ -17,46 +19,46 @@ const towCars = [
   { tow: motoTow, description: "Эвакуация мотоциклов" },
 ];
 
-const info = [
+const info: IInfo[] = [
   {
     infoName: "Выезд:",
-    desription: "По городу и в области.",
+    description: "По городу и в области.",
   },
   {
     infoName: "Грузоподъемность и платформа",
-    desription: "до 3.5 тонн, платформа 5.5м.",
+    description: "до 3.5 тонн, платформа 5.5м.",
   },
   {
     infoName: "Стоимость:",
-    desription: "От 2500р,",
-    secondDesription: "В пределах Кириши 3000р, далее 100р/км.",
+    description: "От 2500р,",
+    secondDescription: "В пределах Кириши 3000р, далее 100р/км.",
   },
   {
     infoName: "Перевозимый транспорт:",
-    desription:
+    description:
       "Легковые авто, Автобусы, микроавтобусы, Мотоциклы, снегоходы, квадроциклы, Другое.",
   },
   {
     infoName: "Дополнительные Услуги:",
-    desription:
+    description:
       "Эвакуация машин бизнес-класса, Фотоотчёт о погрузке и разгрузке, Выезд в труднодоступные места.",
   },
   {
     infoName: "Время работы:",
-    desription: "24/7",
+    description: "24/7",
   },
   {
     infoName: "Способы оплаты:",
-    desription:
+    description:
       "Наличный и безналичный расчет на карту СберБанка. Предоставление чека за услуги Эвакуатора от Самозанятого.",
   },
   {
     infoName: "Работа с юрлицами и ИП:",
-    desription: "Да.",
+    description: "Да.",
   },
   {
     infoName: "Работа c НДС:",
-    desription: "Нет.",
+    description: "Нет.",
   },
 ];
 
@@ -101,13 +103,13 @@ export function Menu() {
                     className="info-descrption"
                     style={{ marginBottom: "5px" }}
                   >
-                    {item.desription}
+                    {item.description}
                   </p>
                   <p
                     className="info-descrption"
                     style={{ marginBottom: "5px" }}
                   >
-                    {item.secondDesription}
+                    {item.secondDescription}
                   </p>
                 </div>
               );

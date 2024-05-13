@@ -1,24 +1,26 @@
-import { useState } from "react";
+import "./ImageSlider.css";
+import React from "react";
+
 import { ImageSliderProps } from "./ImageSliderProps";
+
 import {
   ArrowBigLeft,
   ArrowBigRight,
   Circle,
   CircleDotIcon,
 } from "lucide-react";
-import "./ImageSlider.css";
 
 export function ImageSlider({ imageUrls }: ImageSliderProps) {
-  const [imageIndex, setImageIndex] = useState(0);
+  const [imageIndex, setImageIndex] = React.useState(0);
 
   function showNextImage() {
-    setImageIndex((index) => {
+    setImageIndex((index: number): number => {
       if (index === imageUrls.length - 1) return 0;
       return index + 1;
     });
   }
   function showPrevImage() {
-    setImageIndex((index) => {
+    setImageIndex((index: number): number => {
       if (index === 0) return imageUrls.length - 1;
       return index - 1;
     });

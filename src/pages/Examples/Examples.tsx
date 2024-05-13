@@ -1,6 +1,6 @@
 import "./Examples.css";
 
-import { ImageSlider } from "../../Components/ImageSlider/ImageSlider";
+import { ImageSlider } from "../../Components/index";
 
 import car1 from "../../assets/car-1.jpg";
 import car2 from "../../assets/car-2.jpg";
@@ -11,7 +11,9 @@ import car6 from "../../assets/car-6.jpg";
 import car7 from "../../assets/car-7.jpg";
 import car8 from "../../assets/car-8.jpg";
 
-const IMAGES = [car1, car2, car3, car4, car5, car6, car7, car8];
+import { TExamples } from "../types";
+
+const IMAGES: TExamples = [car1, car2, car3, car4, car5, car6, car7, car8];
 
 export function Examples() {
   return (
