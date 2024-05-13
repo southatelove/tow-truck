@@ -7,4 +7,4 @@
 # To view the project
 
 Для старта проекта используйте следующие команды: npm i , npm run dev
-ц
+
