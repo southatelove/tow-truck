@@ -2,7 +2,7 @@ import "./Examples.css";
 
 import { TExamples } from "src/types";
 import { car1, car2, car3, car4, car5, car6, car7, car8 } from "@/assets/index";
-import { ImageSlider } from "src/Components";
+import { ImageSlider } from "src/Components/ImageSlider";
 
 const ImagesWork: TExamples = [car1, car2, car3, car4, car5, car6, car7, car8];
 
