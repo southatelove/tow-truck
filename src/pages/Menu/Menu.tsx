@@ -1,24 +1,8 @@
 import "./Menu.css";
 
-import { carTow, motoTow, truckTow } from "@/assets/icons";
-
 import { mainTow } from "@/assets/index";
-import { defaultInfo } from "@/mock/index";
-import { ITowCars } from "@/types/index";
+import { defaultInfo, towCars } from "@/mock/index";
 
-const towCars: ITowCars[] = [
-  {
-    tow: carTow,
-    description: "Эвакуация автомобилей",
-  },
-  {
-    tow: truckTow,
-    description: "Эвакуация внедорожников и микроавтобусов до 3.5 тонн",
-  },
-  { tow: motoTow, description: "Эвакуация мотоциклов" },
-];
-
-console.log("Разработчик", "https://github.com/southatelove");
 export function Menu() {
   return (
     <>
@@ -36,11 +20,11 @@ export function Menu() {
         </h2>
         <div style={{ display: "flex", flexDirection: "column", gap: "50px" }}>
           <div className="main-section-content">
-            {towCars.map((item, index) => {
+            {towCars.map((car, index) => {
               return (
                 <div key={index}>
-                  <img src={item.tow} alt="tow" />
-                  <p className="description">{item.description}</p>
+                  <img src={car.tow} alt="tow" />
+                  <p className="description">{car.description}</p>
                 </div>
               );
             })}

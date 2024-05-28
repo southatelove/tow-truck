@@ -7,6 +7,8 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { Layout } from "./layout/Layout/Layout.tsx";
 import { Contacts, Examples, Menu, Error } from "./pages/index";
 
+console.log("Разработчик", "https://github.com/southatelove");
+
 const router = createBrowserRouter([
   {
     path: "/",

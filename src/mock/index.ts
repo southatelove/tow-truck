@@ -1,4 +1,5 @@
-import { IInfo } from "src/types";
+import { IInfo, ITowCars } from "src/types";
+import { carTow, motoTow, truckTow } from "@/assets/icons";
 
 export const defaultInfo: IInfo[] = [
   {
@@ -41,4 +42,16 @@ export const defaultInfo: IInfo[] = [
     infoName: "Работа c НДС:",
     description: "Нет.",
   },
+];
+
+export const towCars: ITowCars[] = [
+  {
+    tow: carTow,
+    description: "Эвакуация автомобилей",
+  },
+  {
+    tow: truckTow,
+    description: "Эвакуация внедорожников и микроавтобусов до 3.5 тонн",
+  },
+  { tow: motoTow, description: "Эвакуация мотоциклов" },
 ];

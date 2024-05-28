@@ -1,0 +1,11 @@
+export { default as car1 } from "./car-1.webp";
+export { default as car2 } from "./car-2.webp";
+export { default as car3 } from "./car-3.webp";
+export { default as car4 } from "./car-4.webp";
+export { default as car5 } from "./car-5.webp";
+export { default as car6 } from "./car-6.webp";
+export { default as car7 } from "./car-7.webp";
+export { default as car8 } from "./car-8.webp";
+export { default as mainTow } from "./main-tow-truck.webp";
+export { default as tow48 } from "./tow-truck48.png";
+export { default as tow96 } from "./tow-truck96.png";

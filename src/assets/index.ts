@@ -1,11 +1,2 @@
-export { default as car1 } from "./car-1.jpg";
-export { default as car2 } from "./car-2.jpg";
-export { default as car3 } from "./car-3.jpg";
-export { default as car4 } from "./car-4.jpg";
-export { default as car5 } from "./car-5.jpg";
-export { default as car6 } from "./car-6.jpg";
-export { default as car7 } from "./car-7.jpg";
-export { default as car8 } from "./car-8.jpg";
-export { default as mainTow } from "./main-tow-truck.jpg";
-export { default as tow48 } from "./tow-truck48.png";
-export { default as tow96 } from "./tow-truck48.png";
+export * from "./icons";
+export * from "./img";
