@@ -1,8 +1,5 @@
+import { email, github, telegram, telephone } from "@/assets/icons";
 import "./Footer.css";
-
-import telegram from "../../assets/icons/telegram.svg";
-import telephone from "../../assets/icons/telephone.svg";
-import email from "../../assets/icons/email.svg";
 
 export function Footer() {
   return (
@@ -16,8 +13,9 @@ export function Footer() {
               Телефон: 8(905)233-89-98, Электронная почта:
               komissarov0205@gmail.com
             </p>
-            <a href="https://github.com/southatelove">
-              The website was created by "southatelove"
+            <a href="https://github.com/southatelove" className="footer-github">
+              <p>Разработчик</p>
+              <img src={github}></img>
             </a>
           </div>
           <div className="footer-right-container">

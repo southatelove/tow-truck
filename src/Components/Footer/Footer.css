@@ -38,3 +38,12 @@
     max-width: 200px;
   }
 }
+.footer-github {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+}
+.footer-github p:hover {
+  color: grey;
+}

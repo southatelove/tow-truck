@@ -1,9 +1,5 @@
+import { email, telegram, telephone, whatsup } from "@/assets/icons";
 import "./Contacts.css";
-
-import telephone from "../../assets/icons/telephone.svg";
-import email from "../../assets/icons/email.svg";
-import telegram from "../../assets/icons/telegram.svg";
-import whatsapp from "../../assets/icons/whatsup.svg";
 
 export function Contacts() {
   return (
@@ -56,7 +52,7 @@ export function Contacts() {
               <p>WhatsApp:</p>
               <a href="https://wa.me/89052338998">
                 <img
-                  src={whatsapp}
+                  src={whatsup}
                   style={{ width: "15px", height: "15px", marginRight: "10px" }}
                 />
                 8(905)233-89-98

@@ -5,7 +5,7 @@ import ReactDOM from "react-dom/client";
 
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { Layout } from "./layout/Layout/Layout.tsx";
-import { Contacts, Examples, Menu, Error } from "./pages/index.ts";
+import { Contacts, Examples, Menu, Error } from "./pages/index";
 
 const router = createBrowserRouter([
   {

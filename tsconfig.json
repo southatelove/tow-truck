@@ -13,6 +13,22 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": [
+        "src/components/*"
+      ],
+      "@/types/*": [
+        "src/types/*"
+      ],
+      "@/assets/*": [
+        "src/assets/*"
+      ],
+      "@/mock/*": [
+        "src/mock/*"
+      ]
+    },
+
 
     /* Linting */
     "strict": true,
