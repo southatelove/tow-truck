@@ -1,21 +1,21 @@
 import "./Header.css";
-import React from "react";
+import React, { useCallback } from "react";
 
 import { Link } from "react-router-dom";
 import { Drawer } from "antd";
 import { MenuOutlined } from "@ant-design/icons";
 import { tow48, tow96 } from "@/assets/index";
 
-export function Header() {
+export const Header = function Header() {
   const [open, setOpen] = React.useState(false);
 
-  const showDrawer = () => {
+  const showDrawer = useCallback(() => {
     setOpen(true);
-  };
+  }, []);
 
-  const onClose = () => {
+  const onClose = useCallback(() => {
     setOpen(false);
-  };
+  }, []);
 
   return (
     <>
@@ -60,4 +60,4 @@ export function Header() {
       </div>
     </>
   );
-}
+};

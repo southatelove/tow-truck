@@ -1,5 +1,5 @@
 import "./ImageSlider.css";
-import React from "react";
+import React, { useCallback } from "react";
 
 import { ImageSliderProps } from "./ImageSliderProps";
 
@@ -13,18 +13,20 @@ import {
 export function ImageSlider({ imageUrls }: ImageSliderProps) {
   const [imageIndex, setImageIndex] = React.useState(0);
 
-  function showNextImage() {
+  const showNextImage = useCallback(() => {
     setImageIndex((index: number): number => {
       if (index === imageUrls.length - 1) return 0;
       return index + 1;
     });
-  }
-  function showPrevImage() {
+  }, []);
+
+  const showPrevImage = useCallback(() => {
     setImageIndex((index: number): number => {
       if (index === 0) return imageUrls.length - 1;
       return index - 1;
     });
-  }
+  }, []);
+
   return (
     <div className="slider">
       <div
